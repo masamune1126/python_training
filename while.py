@@ -2,7 +2,7 @@
 
 a = 0
 while a < 10:
-    print(a)
+    print (a)
     a += 1
     #aが増えた場合aの値を+1回ふやしてください。
 
