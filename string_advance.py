@@ -1,12 +1,14 @@
-＃置換
+#文字列の置換
 
-a = ("Hello world!")
+a = ("Hello World!")
+print(a)
 
-b = a.replace("hello","good mornig")
+
+#自動保管機能.replace 同じ文字を入れる※スペル間違えないようにする
+b = a.replace("Hello","good mornig")
 print(b)
-
 
 c = a[0:3]
 print(c)
 
-# .replace 自動保管
+#[:]先頭から置換する文字を指定する

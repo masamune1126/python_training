@@ -1,22 +1,23 @@
+#文字列について
 a = ("Hello")
 b = ("World")
 
+#文字列を+で結合する
 c = a + b
 print(c)
 
-d = a * 5
+#文字列*数字で文字列を繰り返し増やせる。
+d = a *5
 print(d)
 
-e = a * 5 + b * 3
+
+e = a * 3 + b * 8
 print(e)
 
-
+#文字列をすべて大文字にする.upper
 f = a.upper()
 print (f)
 
-# .upperで大文字
-
+#文字列をすべて小文字にする.lower
 g = a.lower()
 print(g)
-
-# .lowerで小文字

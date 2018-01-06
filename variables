@@ -1,3 +1,4 @@
+#変数の代入
 a = 123
 print (a)
 
@@ -10,14 +11,15 @@ print (c)
 d = c
 print (d)
 
-e = ("こんにちは！")
-print (e)
+e = ("こんちには！")
+print(e)
 
 f = e
 print (f)
 
+#Trueルール値
 g = True
-print (True)
+print (g)
 
 
 

@@ -1,25 +1,27 @@
 #論理演算子
+#aの条件判定の書き方
 
+#andの右と左が両方当てはまる場合Trueを出す演算子
 a = 5
-b = a > 4 and a <6
+b =  a > 4 and a <6
 print(b)
 
-#andより右と左があってればTrue
 
+#andより右と左があってなければFalse
 c = a > 4 and a < 2
 print(c)
 
-#andより右と左があってなければFalse
 
-d = a < 3 or a > 4
+#orは右か左どちらかがただしければTrueがかえる どっちもちがうと　Falese
+d = a <3 or a >4
 print(d)
 
-e = a <3 or a >5
+e = a < 3 or a > 5
 print(e)
 
-#orは右か左がただしければTrueがかえる どっちもちがうと　Falese
-
+#not演算値はルールを反転させる
 f = not a == 5
 print(f)
-#not演算値はルールを反転させる
 
+g = not a ==4
+print(g)

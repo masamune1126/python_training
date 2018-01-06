@@ -1,3 +1,4 @@
+#四則演算
 a = 7
 b = 3
 
@@ -8,25 +9,27 @@ print(c)
 
 #差をとってみる
 d = a - b
-print (d)
+print(d)
 
-#席を出す
+#積を出す
 e = a * b
 print(e)
 
 
 #a÷b
-f = a / b
-print (f)
+f =  a /b
+print(f)
 
 #余りを出す％
 g = a % b
-print (g)
+print(g)
 
-
+#追加式の書き方
 h = a + 1
-print (h)
+print(h)
 
-a += 1
-print (a)
+
+#省略表記
+a += 2
+print(a)
 
