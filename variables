@@ -22,7 +22,6 @@ g = True
 print (g)
 
 
-
 a = 123
 print (a)
 

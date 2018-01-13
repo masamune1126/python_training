@@ -3,14 +3,20 @@
 
 #andの右と左が両方当てはまる場合Trueを出す演算子
 a = 5
-b =  a > 4 and a <6
+b =  a > 4 and a < 6
 print(b)
+
+aa = 4
+bb = aa >3 and aa <5
+print(bb)
 
 
 #andより右と左があってなければFalse
 c = a > 4 and a < 2
 print(c)
 
+cc = aa > 3 and aa < 4
+print(cc)
 
 #orは右か左どちらかがただしければTrueがかえる どっちもちがうと　Falese
 d = a <3 or a >4

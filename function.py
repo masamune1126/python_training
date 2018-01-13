@@ -8,3 +8,11 @@ def func2():
     func1()
 
 func2()
+
+
+
+def func3():
+    print("Hi!")
+    func2()
+
+func1()

@@ -1,0 +1,25 @@
+#calculationclass
+class Calcuration:
+    value = 0
+    def square(self):
+        s = self.value * self.value
+        return s
+
+#a = Calcuration()
+#b = Calcuration()
+#c = Calcuration()
+#
+#calcs = [a,b,c]
+
+calcs = [Calcuration(),Calcuration(),Calcuration()]
+calcs[0].value = 3
+calcs[1].value = 5
+calcs[2].value = 7
+
+print(calcs[0].square())
+print(calcs[1].square())
+print(calcs[2].square())
+#classでの2条がついた
+
+for c in calcs:
+    print(c.square())

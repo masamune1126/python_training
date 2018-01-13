@@ -1,10 +1,8 @@
 #比較演算子【重要】
-
 a = True
 b = False
 
 #ルール値Trueとfalseを宣言する
-
 print (a)
 print (b)
 
@@ -13,7 +11,6 @@ d = c > 4
 print(d)
 
 #d=cは４より大きい
-
 e = c < 4
 print(e)
 
